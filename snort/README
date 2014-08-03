@@ -1,0 +1,12 @@
+Parts of a Rule: Headers 
+--------------------------------------------------------
+action protocol VARIABLES ports
+  ||   ||        ||       ||
+  ||   ||        ||       ||
+  \/   \/        \/       \/
+alert tcp $EXTERNAL_NET any -> $HTTP_SERVERS $HTTP_PORTS
+                            /\
+                            ||
+                            ||
+                   direction operator
+--------------------------------------------------------
